@@ -35,4 +35,4 @@ jobs:
       - name: Deploy Kedro-Viz to GH Pages
         uses: kedro-org/publish-kedro-viz@v1
         with:
-          publishing_source: 'workflow'
+          publishing_source: 'branch'
